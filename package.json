@@ -35,8 +35,8 @@
     "mongoose-delete": "^1.0.2",
     "mongoose-slug-updater": "^3.3.0",
     "morgan": "^1.10.0",
-    "nodemon": "^3.0.3",
-    "nodesass": "^0.0.2-security"
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.3"
   },
   "devDependencies": {
     "husky": "^9.0.11",
