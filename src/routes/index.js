@@ -6,10 +6,8 @@ const siteRouter = require('./site');
 
 function route(app) {
   app.use('/news', newsRouter);
-  app.use('/me', meRouter);
-
-  app.use('/courses/', coursesRouter);
-
+  app.use('/api/me', meRouter);
+  app.use('/api/courses', coursesRouter);
   app.use('/', siteRouter);
 }
 

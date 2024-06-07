@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const methodOverride = require('method-override');
 const handlebars = require('express-handlebars');
 const app = express();
-const port = 3333;
+const port = 1111;
 
 const SortMiddleware = require('./middlewares/sortMiddleware');
 
@@ -92,7 +92,7 @@ app.set('views', './src/resources/views');
 // app.set(express.static(path.join(__dirname, 'resources/views')));
 
 // Routes init
-route(app);
+route(app)
 app.listen(port, () =>
   console.log(`App listening at http://localhost:${port}`),
 );
